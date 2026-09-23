@@ -3,7 +3,7 @@
   "format_version": 3,
   "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
   "tooth": "github.com/Shulker-Studio/Server",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "info": {
     "name": "潜小贝服务器",
     "description": "潜小贝服务器",
@@ -14,20 +14,19 @@
     {
       "platform": "win-x64",
       "dependencies": {
-        "github.com/Shulker-Studio/Server#base": "0.2.*"
+        "github.com/Shulker-Studio/Server#base": "0.3.*"
       }
     },
     {
       "platform": "win-x64",
       "label": "2025",
       "dependencies": {
-        "github.com/Shulker-Studio/Server#base": "0.2.*",
-        "github.com/GroupMountain/GMLIB-Release": "26.40.*",
-        "github.com/CoralFans-Dev/CoralFans": "26.40.*",
-        "github.com/LeafKnife/Stats": "0.11.*",
-        "github.com/Shulker-Studio/STweaks": "26.40.*",
-        "github.com/lwenk/LSEMultiMarket": "0.2.*",
-        "github.com/IceBlcokMC/PLand": "0.23.*"
+        "github.com/Shulker-Studio/Server#base": "0.3.*",
+        "github.com/GroupMountain/GMLIB-Release": "26.51.*",
+        "github.com/CoralFans-Dev/CoralFans": "26.51.*",
+        "github.com/LeafKnife/Stats": "0.12.*",
+        "github.com/Shulker-Studio/STweaks": "26.51.*",
+        "github.com/lwenk/LSEMultiMarket": "0.2.*"
       },
       "assets": [
         {
@@ -49,14 +48,14 @@
       "platform": "win-x64",
       "label": "base",
       "dependencies": {
-        "github.com/Shulker-Studio/Server#bds": "0.2.*",
+        "github.com/Shulker-Studio/Server#bds": "0.3.*",
         "github.com/LiteLDev/7-zip-tooth": "26.*",
-        "github.com/LiteLDev/LeviLamina": "26.40.*",
-        "github.com/LiteLDev/LegacyScriptEngine#quickjs": "0.21.*",
-        "github.com/LiteLDev/LegacyScriptEngine#nodejs": "0.21.*",
-        "github.com/LiteLDev/LeviAntiCheat": "0.16.*",
-        "github.com/LiteLDev/LeviOptimize": "0.16.*",
-        "github.com/ShrBox/BackupHelper": "0.18.*"
+        "github.com/LiteLDev/LeviLamina": "26.50.*",
+        "github.com/LiteLDev/LegacyScriptEngine#quickjs": "0.22.*",
+        "github.com/LiteLDev/LegacyScriptEngine#nodejs": "0.22.*",
+        "github.com/LiteLDev/LeviAntiCheat": "0.17.*",
+        "github.com/LiteLDev/LeviOptimize": "0.17.*",
+        "github.com/ShrBox/BackupHelper": "0.19.*"
       }
     },
     {
@@ -67,13 +66,13 @@
         {
           "type": "uncompressed",
           "urls": [
-            "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.40.8.zip"
+            "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.51.1.zip"
           ],
           "placements": [
             {
               "type": "file",
               "src": "",
-              "dest": ".cache/bdsdown/bedrock-server-1.26.40.8.zip"
+              "dest": ".cache/bdsdown/bedrock-server-1.26.51.1.zip"
             }
           ]
         }
