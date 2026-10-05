@@ -3,7 +3,7 @@
   "format_version": 3,
   "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
   "tooth": "github.com/Shulker-Studio/Server",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "info": {
     "name": "潜小贝服务器",
     "description": "潜小贝服务器",
@@ -26,7 +26,11 @@
         "github.com/CoralFans-Dev/CoralFans": "26.51.*",
         "github.com/LeafKnife/Stats": "0.12.*",
         "github.com/Shulker-Studio/STweaks": "26.51.*",
-        "github.com/lwenk/LSEMultiMarket": "0.2.*"
+        "github.com/lwenk/LSEMultiMarket": "0.2.*",
+        "github.com/lwenk/PlandFly": "26.51.*",
+        "github.com/IceBlcokMC/PLand": "0.24.*",
+        "github.com/engsr6982/FastMiner": "0.20.*",
+        "github.com/engsr6982/TeleportSystem": "0.20.*"
       },
       "assets": [
         {
